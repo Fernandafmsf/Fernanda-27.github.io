@@ -1,0 +1,192 @@
+html, body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    float: left;
+}
+#justificado{
+    text-align: justify;
+}
+#centralizado{
+    text-align: center;
+}
+p{
+    margin-top: 0,5%;
+}
+.p1{
+    padding: 0.8%;
+    background-color: gainsboro;
+}
+.p2{
+    padding: 0.8%;
+    background-color:white;
+}
+.header{
+    height:12%;
+    width:100%;
+    position:fixed;
+    z-index: 10;
+}
+#logo{
+    border-radius: 10%;
+    margin-top:0.7%;
+    width:4%;
+    margin-left:2%;
+    position:absolute;
+}
+#logo:hover{
+    background-color: white;
+    transition: 0.6s ease;
+}
+ul{
+    float:right;
+    list-style: none;
+    margin-right:0.5%;
+}
+li{
+    float:left;
+    margin-top: 3%;
+}
+li a{
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px ;
+    cursor: pointer;
+    text-decoration: none;
+}
+li a:hover{
+    color: black;
+    background-color: white;
+    padding: 10px 20px ;
+    transition: 0.6s ease;
+}
+.menu{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/pexels-george-becker-117018.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    color: white;
+}
+#titulo{
+    padding-top: 15%;
+    font-size: 400%;
+}
+#subtitulo{
+    margin-top:0;
+    margin-right: 20%;
+    margin-left: 20%;
+    border-top: solid white 2px;
+}
+#link {
+    color: white;
+    text-decoration: none;
+}
+#link:hover{
+    color: black;
+    background-color: white;
+    padding: 10px 20px ;
+    transition: 600ms ease;
+    border-radius: 5px;
+}
+.coluna1{
+    padding-left:0,8%;
+    float:left;
+    position:relative;
+    width: 50%;
+}
+.imgods{
+    margin: 6%;
+    width:90%;
+}
+.left{
+    float: left;
+    position: relative;
+}
+.right{
+    float: right;
+    position: relative;
+}
+.coluna2{
+    width: 40%;
+}
+#video{
+    border: solid black 2px;
+    border-radius: 2%;
+    margin-top: 24%;
+}
+.coluna3{
+    width: 60%;
+}
+.e1{
+    width: 30%;
+    margin-left: 3%;
+}
+.t2{
+    width: 100%;
+}
+.coluna4{
+    margin-top: 2%;
+    margin-bottom: 5%;
+    padding: 0,5%;
+    width:25%;
+}
+.tamanho{
+    padding:2%;
+    border-radius: 50%;
+    height: 10%;
+}
+.tamanho:hover{
+    background-color: teal;
+    transition: 0.6s ease;
+}
+.coluna5{
+    margin-left: 0,5%;
+    margin-top: 3%;
+    width:78%;
+}
+.coluna6{
+    margin-left: 2%;
+    width:20%;
+}
+#foto{
+    border:solid black;
+    border-radius: 100% ;
+    width: 100%;    
+}
+.footer{
+    color: white;
+    padding-bottom:5%;
+    clear: both;
+    background-color: black;
+}
+.footer h2{
+    padding-top: 2%;
+}
+@media all and (max-width: 768px){
+    #menu2{
+        visibility: hidden;
+    }
+    #logo{
+        width: 12%;
+    }
+    .coluna1, .coluna2, .coluna3, .coluna4, .coluna5, .coluna6, .e1{
+        display: block;
+        float: none;
+        padding: 0;
+        width: 80%;
+        margin: 10px auto;
+    }
+    #logodiv{
+        width: 100%;
+        text-align: center;
+        position: relative;
+    }
+    #logo{
+        margin-left: 0%;
+        transform: translateX(-50%);
+    }
+
+}
+
+
