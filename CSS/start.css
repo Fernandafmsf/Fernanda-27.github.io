@@ -1,0 +1,125 @@
+html, body{
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    
+}
+#header{
+    height: 50vh;
+    background-color:#8257E5;
+}
+.menu{
+    padding-top:1%;
+    margin: auto 15%;
+}
+img{
+    margin-left: 2%;
+}
+.texting{
+    text-align: center;
+    margin-left: 0;
+    margin-bottom: 7%;
+    color: #FFFFFF;
+}
+
+ul{
+    list-style: none;
+    margin-left: -4%;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12vw;
+    height: 10vh;
+    margin-right: 2%;
+    background-color: #04D361;
+    border-radius: 5px;
+}
+.list li:hover{
+    transition: 0.6s;
+    background-color:#04BF58 ;
+}
+.list li a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    padding: 10% 25%;
+    
+}
+#corpo{
+    padding-top: 3%;
+    background-color: #F0F0F7;
+}
+#corpo h2{
+    color: #6842c2;
+}
+#corpo a{
+    text-decoration: none;
+    color: #6842c2;
+}
+.forma{
+    background-color: white;
+    padding: 1%;
+    margin: 2% 15%;
+    border-radius:20px;
+}
+.foto{
+    height: 25vh;
+   
+    border-radius: 50%;
+}
+.top-foto{
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2%;
+}
+.top-foto div{
+    margin-left: 5%;
+}
+.top-foto div h2{
+    margin-bottom:0;
+}
+.top-foto div h4{
+    margin-top:0;
+}
+
+@media all and (max-width: 768px){
+    #header{
+        height: 50vh;
+    }
+    .menu{
+        padding-top: 3%;
+        margin: 0;
+    }
+    .menu .texting{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    ul{
+        margin-left: -8%;
+    }
+    #header .list li{
+        width: 30vw;
+    }
+    #corpo{
+        padding-top: 0;
+    }
+    .forma{
+        padding-left: 4%;
+        margin: 0;
+        margin-bottom: 5%;
+        border-radius: 0;
+
+    }
+}
+
+
+

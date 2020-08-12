@@ -4,64 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width:device-width, initial-scale=1.0">
     <title>Meu Primeiro Site</title>
-    <link rel="stylesheet" href="projeto.css">
+    <link rel="stylesheet" href="CSS/projeto.css">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
 </head>
 <body>
    
     <!-- HEADER -->
     <header class="header">
+
         <div id="logodiv">
-            <img id="logo" src="img/reading.png" alt="Logo da ONU.">
+            <a href="index.html">
+                <img src="img/back.svg" alt="Imagem de seta">
+            </a>
         </div>
+
+        <div class="lista">
        <ul id="menu2">
-           <li ><a href="#ODS">ODS </a></li>
+           <li><a href="#ods">ODS </a></li>
            <li><a href="#educacao">Objetivo 4</a></li>
            <li><a href="#estatisticas">Estatísticas</a></li>
            <li><a href="#metas">2030</a></li>
-           <li><a class="m1" href="#sobremim">Sobre</a></li>
+           <li><a href="#obj">Projeto</a></li>
+           <li><a href="#sobremim">Sobre</a></li>
        </ul>
-
-    </header>
-   
-    <!-- MENU --> 
-   <div class="menu" id="centralizado">
-        <h1 id="titulo">Educação de Qualidade</h1>
-        <p id="subtitulo">Faz parte dos Objetivos de Desenvolvimento Sustentável propostos pela ONU, tendo como meta garantir o acesso à educação de forma equitativa, inclusiva e de qualidade.</p>
-        <a id="link" href="https://nacoesunidas.org/pos2015/ods4/" target="_blanck">Clique aqui para saber mais!</a>
     </div>
+    </header>
+
+    <section class="margem" id="first">
+   <div class="menu">
+        <h1 id="titulo">Educação de Qualidade</h1>
+        <p id="subtitulo">A ONU, tendo o objetivo de promover o desenvolvimento dos países, criou uma série de metas a serem alcançadas.</p>
+        <a href="https://nacoesunidas.org/pos2015/ods4/" target="_blank">Clique aqui para saber mais!</a>
+    </div>
+
+    <div class="menu2">
+        <img src="img/43122.jpg" alt="Imagem representando pessoas com livros">
+    </div>
+</section>
    
     <!-- ODS --> 
-    <section id="ODS" class="p1" >
-        <div class="coluna1">
+    <section id="ods" >
+        <div class="coluna1 left">
              <h2 id="centralizado">Objetivos de Desenvolvimento Sustentável</h2>
-             <p id="justificado">Antes de começarmos a entender sobre o ODS número 4, devemos entender a história desses objetivos e o que eles representam.</p>
-             <p id="justificado"> Criados em 2015, são um conjunto de 17 metas a serem atingidas em 15 anos. Seu propósito é promover a evolução da sociedade em diversos aspectos.</p>
-             <p id="justificado">A ods surgiu a partir da necessidade de aprimorar as mudanças já realizadas por conta dos Objetivos de Desenvolvimento do Milênio (ODM), criados no ano 2000 e que, como os ODS's, tinham uma série de metas a serem atingidas em um período de 15 anos. Em 2015 houve a análise dessas metas, que se provaram eficazes, uma vez que o índice de pobreza havia diminuido, o número de crianças que frequentavam escola primária havia aumentado, as mortes infantis haviam diminuido drasticamente, dentre muitos outros fatores. Vendo que a ODM foi muito útil, criaram outro conjunto de metas: ODS.</p>
+             <p > Criados em 2015, são um conjunto de 17 metas a serem atingidas em 15 anos. Seu propósito é promover a evolução da sociedade em diversos aspectos.</p>
+             <p >Surgiu a partir da necessidade de aprimorar as mudanças já realizadas por conta dos Objetivos de Desenvolvimento do Milênio (ODM), criados no ano 2000 e que, como os ODS's, tinham uma série de metas a serem atingidas em um período de 15 anos. </p>
+             <p >Em 2015 houve a análise dessas metas, que se provaram eficazes, uma vez que o índice de pobreza havia diminuido, o número de crianças que frequentavam escola primária havia aumentado, as mortes infantis haviam diminuido drasticamente, dentre muitos outros fatores. Vendo que a ODM foi muito útil, criaram outro conjunto de metas: ODS.</p>
         </div>
-        <div class="coluna1">
-            <img class= "imgods"src="img/ods.jpg" alt="Imagem representando os ODS's">
+        <div class="coluna1 left">
+            <img class= "imgods"src="img/capa-1024x576.jpg" alt="Imagem representando os ODS's">
         </div>
     </section>
    
     <!-- EXPLICANDO EDUCAÇÃO DE QUALIDADE --> 
-    <section id="educacao" class="p2" >
+    <section id="educacao" class="color">
         <div  class="coluna2 left">
              <iframe id="video" width="95%" height="315" src="https://www.youtube.com/embed/t7x4vLtJp4w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>       
         <div class="coluna3 right">
-            <h2 id="centralizado">Objetivo número 4</h2>
-            <p  id="justificado">Por mais que durante os últimos anos a frequência nas escolas tenha melhorado significativamente, o número de jovens, crianças e adultos com deficiência na educação ainda é alto.</p>
-            <p  id="justificado">Educação de qualidade faz despertar as habilidades do ser humano, potencializando-as, dando liberdade e expandindo horizontes desse mesmo ser. É um fato que quanto mais acesso à educação, melhor será sua alimentação, saúde e emprego, o que gera um bem estar da população, diminuindo a pobreza e alavancando a economia. </p>
-            <p  id="justificado">Em países de baixa renda, a taxa de evasão de estudantes de 15 a 17 anos é de 59%, enquanto em países ricos é de apenas 6%. Estima-se que no mundo existam cerca de 250 milhões de crianças que não são capazes de ler e escrever de forma a atender os padrões mínimos de aprendizagem, e  que cerca de 50% das crianças fora das escolas vivem em áreas afetadas por conflitos.</p>
-            <p  id="justificado">No Brasil, levantamentos do Inep mostram que cerca de 2 milhões de crianças e adolescentes estão fora da escola. Entre os adolescentes de 15 e 17 anos, cerca de 1,3 milhão não está estudando. Dentre esses, os motivos são diversos. </p>
-            <p  id="justificado">É importante falar também sobre a desigualdade de gênero no acesso à educação de qualidade. No brasil, mais de 1,7 milhão de meninas e mulheres de 15 a 29 anos não completaram o ensino médio, não estudam e não exercem atividade remunerada, representando 26% do total de jovens dessa mesma faixa etária que não concluiu o ensino médio nem voltou a estudar. Enquanto isso, os meninos representam 12,7% desse mesmo total.</p>
-            <p  id="justificado">Dessa forma, a ONU percebeu que ainda há muito a se fazer para melhorar o acesso à educação, o que levou à criação do ODS número 4, que possui suas metas próprias a serem alcançadas por cada país até 2030. Essas metas tem como objetivo tornar eficiente, equitativo e inclusivo o acesso à educação. Não é um problema recente e os motivos da evasão escolar são diversos. No entanto, a educação será sempre a resposta para uma nação que necessita crescer.</p>
+            <h2 class="margem" id="centralizado">Objetivo número 4</h2>
+            <p  id="esquerda">Agora que já entendemos um pouco sobre os ODS's, chegou o momento de falar sobre o Objetivo número 4: Educação de Qualidade.</p>
+            <p  id="esquerda">Por mais que durante os últimos anos a frequência nas escolas tenha melhorado significativamente, o número de jovens, crianças e adultos com deficiência na educação ainda é alto.</p>
+            <p  id="esquerda">Educação de qualidade faz despertar as habilidades do ser humano, potencializando-as, dando liberdade e expandindo horizontes desse mesmo ser. É um fato que quanto mais acesso à educação, melhor será sua alimentação, saúde e emprego, o que gera um bem estar da população, diminuindo a pobreza e alavancando a economia. </p>
+            <p  id="esquerda">Em países de baixa renda, a taxa de evasão de estudantes de 15 a 17 anos é de 59%, enquanto em países ricos é de apenas 6%. Estima-se que no mundo existam cerca de 250 milhões de crianças que não são capazes de ler e escrever de forma a atender os padrões mínimos de aprendizagem, e  que cerca de 50% das crianças fora das escolas vivem em áreas afetadas por conflitos.</p>
+            <p  id="esquerda">Dessa forma, a ONU percebeu que ainda há muito a se fazer para melhorar o acesso à educação, o que levou à criação do ODS número 4, que possui suas metas próprias a serem alcançadas por cada país até 2030. Essas metas tem como objetivo tornar eficiente, equitativo e inclusivo o acesso à educação. Não é um problema recente e os motivos da evasão escolar são diversos. No entanto, a educação será sempre a resposta para uma nação que necessita crescer.</p>
         </div>
     </section>
 
     <!-- ESTATÍSTICAS --> 
-    <section id="estatisticas" class="p1">
-            <h2 id="centralizado">Estatísticas</h1>
+    <section id="estatisticas"  >
+        <div class="texting2">
+        <h2 id="centralizado">Estatísticas</h1>
+        <div class="parte2">
+            <p  id="esquerda">No Brasil, levantamentos do Inep mostram que cerca de 2 milhões de crianças e adolescentes estão fora da escola. Entre os adolescentes de 15 e 17 anos, cerca de 1,3 milhão não está estudando. Dentre esses, os motivos são diversos. </p>
+            <p  id="esquerda">É importante falar também sobre a desigualdade de gênero no acesso à educação de qualidade. No brasil, mais de 1,7 milhão de meninas e mulheres de 15 a 29 anos não completaram o ensino médio, não estudam e não exercem atividade remunerada, representando 26% do total de jovens dessa mesma faixa etária que não concluiu o ensino médio nem voltou a estudar. Enquanto isso, os meninos representam 12,7% desse mesmo total.</p>
+        </div>
+        </div>
         <div class="e1 left">
             <img class="t2"src="img/1.jpeg" alt="Imagem representando estatisticas do abandono escolar no Brasil no total.">
         </div>
@@ -71,40 +88,54 @@
         <div class="e1 left">
             <img class="t2" src="img/3.jpeg" alt="Imagem representando estatisticas do abandono escolar no Brasil por sexo.">
         </div>
-    </section>
+     </section>
     
     <!-- METAS --> 
-    <section id="metas" class="p2" >
+    <section id="metas" class="color" >
             <h2 id="centralizado">Até 2030</h2>
        
         <div class="coluna4 left" id="centralizado">
-            <img class="tamanho" src="img/meta1.svg" alt="Imagem que representa um certificado">
-            <p>Garantir que todas as meninas e meninos completem o ensino primário e secundário livre, equitativo e de qualidade.</p>
+                <img class="tamanho" src="img/meta1.svg" alt="Imagem que representa um certificado">
+                <p>Aumentar o número de jovens e adultos que tenham habilidades relevantes, como competências técnicas e profissionais.</p>
         </div>
         
         <div class="coluna4 left" id="centralizado">
-            <img class="tamanho" src="img/infraestrutura.svg" alt="Imagem representando um aprimoramento de infraestrutura.">
-            <p>Construir e melhorar instalações físicas nas escolas, pensando em acessibilidade e inclusão para os mais diversos casos.</p>
+                <img class="tamanho" src="img/infraestrutura.svg" alt="Imagem representando um aprimoramento de infraestrutura.">
+                <p>Construir e melhorar instalações físicas nas escolas, pensando em acessibilidade e inclusão para os mais diversos casos.</p>
         </div>
         
         <div class="coluna4 left" id="centralizado">
-            <img class="tamanho" src="img/professores.svg" alt="Imagem representando um professor.">
-            <p>Aumentar substancialmente o contingente de professores qualificados, utilizando até mesmo de cooperação de nações desenvolvidas.</p>
+                <img class="tamanho" src="img/professores.svg" alt="Imagem representando um professor.">
+                <p>Aumentar substancialmente o contingente de professores qualificados, utilizando até mesmo de cooperação de nações desenvolvidas.</p>
         </div>
        
         <div class="coluna4 left" id="centralizado">
-            <img class="tamanho" src="img/igualdade-de-genero.svg" alt="Imagem representando a igualdade.">
-            <p>Assegurar a igualdade de acesso para todos os homens e mulheres à educação técnica, profissional e superior de qualidade. </p>
+                <img class="tamanho" src="img/igualdade-de-genero.svg" alt="Imagem representando a igualdade.">
+                <p>Assegurar a igualdade de acesso para todos os homens e mulheres à educação técnica, profissional e superior de qualidade. </p>
         </div>
+        
+    </section>
+
+    <section id="obj" >
+        <div >
+        <h2 >Projeto</h2>
+        <p>Sabendo que o déficit na educação é um problema que envolve diversos fatores e situações, resolvi focar em uma situação específica: jovens que têm acesso a internet mas que não podem pagar um curso ou possuem um tempo mais limitado e jovens curiosos.</p>
+        <p> Percebi que na internet existem diversos cursos e sites que podem melhorar bastante os estudos, e de forma gratuita. No entanto, também notei que é difícil chegar nos sites que combinam com o que você procura e com sua forma de estudar, uma vez que existem muitas possibilidades. </p>
+        <p>Pensando nisso, resolvi reunir uma série de sites que me ajudaram e me ajudam muito a estudar não só para o Enem, mas também a desenvolver outras habilidades e expandir meus horizontes.</p>
+        <p> 
+            <a href="start.html">Basta clicar aqui para conhecer as dicas!</a>
+        </p>
+        </div>
+
     </section>
    
     <!-- SOBRE MIM --> 
-    <section id="sobremim" class="p1">
+    <section id="sobremim" class="color">
     
         <div class="coluna5 left">
             <h2 id="centralizado">Sobre mim</h2>
             <h4 id="centralizado">Fernanda Fernandes</h4>
-            <p  id="justificado">Carioca de 17 anos que cursa Técnico de Automação Industrial e ama livros, videogames e esportes. Sou muito grata à Junior Achievement por ter me dado a oportunidade de participar do programa Meu Primeiro Site, Innovation Camp e Miniempresa, todos os contatos e aprendizados que tive nesses programas me foram extremamente úteis. Cada lembrança que tenho dos momentos que passei me motiva cada vez mais a sair da caixinha, ajudar o próximo e, claro, nosso planeta. </p>
+            <p >Carioca de 17 anos que cursa Técnico de Automação Industrial e ama livros, videogames e esportes. Sou muito grata à Junior Achievement por ter me dado a oportunidade de participar do programa Meu Primeiro Site, Innovation Camp e Miniempresa, todos os contatos e aprendizados que tive nesses programas me foram extremamente úteis. Cada lembrança que tenho dos momentos que passei me motiva cada vez mais a sair da caixinha, ajudar o próximo e, claro, nosso planeta. </p>
         </div>
    
         <div class="coluna6 right">
@@ -114,7 +145,7 @@
    
     <!-- RODAPÉ --> 
     <footer class="footer">
-        <h2 id="centralizado">Projeto</h2>
+        <h3 id="centralizado">Projeto</h3>
         <p id="centralizado">Site feito graças ao programa Meu Primeiro Site, criado pela Junior Achievement em parceria com a Microsoft.</p>
     </footer>
 

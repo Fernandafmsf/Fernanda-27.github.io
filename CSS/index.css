@@ -1,0 +1,94 @@
+
+
+html, body{
+    height: 100vh;
+}
+ #menu{
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: #e2e1e4;
+    font-family: 'Poppins';
+
+ }
+.first-page{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text{
+    margin-top:-5%;
+    margin-left:3%;
+}
+img{
+    width: 40vw;
+}
+
+.buttons{
+    display: flex;
+    margin-left: 4%;
+    margin-top: -15%;
+   
+}
+.buttons a{
+    text-align: center;
+    padding-top: 3vh;
+    width: 10vw;
+    height: 7vh;
+    margin-right: 1%;
+    text-decoration: none;
+    color: black;
+    margin-top: 5%;
+    border-radius: 5px;
+    
+}
+.buttons .projeto{
+    background-color:#04D361; 
+}
+.buttons .projeto:hover{
+    color: white;
+    background-color: #04BF58;
+    transition:  0.6s;
+}
+.buttons .start{
+    background-color:#8257E5; 
+}
+.buttons .start:hover{
+    color: white;
+    background-color: #9871F5;
+    transition:  0.6s;
+}
+
+
+@media all and (max-width: 768px){
+    .first-page{
+        display: initial;
+    }
+    .text{
+        margin-top: 12%;
+    }
+    img{
+        width: 80vw;
+        margin: 0 6%;
+    }
+    .buttons{
+        margin: 2% 0%;
+        justify-content: center;
+    }
+    
+    .buttons a{
+        padding-top: 1.5vh;
+        width: 30vw;
+        height: 6vh;
+       
+        
+    }
+    
+
+}
+
+
+
+
+
+

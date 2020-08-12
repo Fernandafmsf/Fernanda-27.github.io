@@ -1,44 +1,44 @@
+
 html, body{
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
 }
+h2{
+    color:#774DD6 ;
+}
+
 section{
     float: left;
-}
-#justificado{
-    text-align: justify;
+    padding-bottom: 3%;
+    padding-top: 5%;
+    padding-left: 2%;
 }
 #centralizado{
     text-align: center;
 }
-p{
-    margin-top: 0,5%;
+
+
+.color{
+    background-color: #F0F0F7;
 }
-.p1{
-    padding: 0.8%;
-    background-color: gainsboro;
-}
-.p2{
-    padding: 0.8%;
-    background-color:white;
-}
+
+
 .header{
-    height:12%;
+    height:10%;
     width:100%;
-    position:fixed;
     z-index: 10;
+    position: fixed;
+    background-color: #774DD6;
+    
 }
-#logo{
+#logodiv{
     border-radius: 10%;
-    margin-top:0.7%;
-    width:4%;
+    margin-top:1.5%;
     margin-left:2%;
     position:absolute;
 }
-#logo:hover{
-    background-color: white;
-    transition: 0.6s ease;
-}
+
 ul{
     float:right;
     list-style: none;
@@ -46,7 +46,7 @@ ul{
 }
 li{
     float:left;
-    margin-top: 3%;
+    margin-top: 1.5%;
 }
 li a{
     color: white;
@@ -61,32 +61,38 @@ li a:hover{
     padding: 10px 20px ;
     transition: 0.6s ease;
 }
+#first{
+    padding-top: 20%;
+    padding-bottom: 5%;
+
+}
 .menu{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/pexels-george-becker-117018.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 100%;
-    color: white;
+    color: black;
+    text-align: center;
+    position: relative;
+    float: left;
+    width: 40%;
+}
+.menu2 img{
+    width: 50%;
+    float: right;
 }
 #titulo{
-    padding-top: 15%;
-    font-size: 400%;
+    font-size: 200%;
 }
 #subtitulo{
     margin-top:0;
-    margin-right: 20%;
-    margin-left: 20%;
-    border-top: solid white 2px;
+    border-top: solid black 2px;
 }
-#link {
-    color: white;
-    text-decoration: none;
-}
-#link:hover{
+.menu a {
     color: black;
-    background-color: white;
+    text-decoration: none;
     padding: 10px 20px ;
-    transition: 600ms ease;
+    transition: 0.6s ;
+}
+.menu a:hover{
+    color: black;
+    background-color: #04BF58;
     border-radius: 5px;
 }
 .coluna1{
@@ -113,7 +119,7 @@ li a:hover{
 #video{
     border: solid black 2px;
     border-radius: 2%;
-    margin-top: 24%;
+    margin-top: 50%;
 }
 .coluna3{
     width: 60%;
@@ -140,12 +146,23 @@ li a:hover{
     background-color: teal;
     transition: 0.6s ease;
 }
-.coluna5{
-    margin-left: 0,5%;
-    margin-top: 3%;
-    width:78%;
+#obj{
+    margin-top: 1%;
 }
+
+#obj a{
+    text-decoration: none;
+    color: #6842c2;
+    cursor: pointer;
+}
+.coluna5{
+    margin-left: 1%;
+    margin-top: 1%;
+    width:75%;
+}
+
 .coluna6{
+    margin-top: 1%;
     margin-left: 2%;
     width:20%;
 }
@@ -155,38 +172,54 @@ li a:hover{
     width: 100%;    
 }
 .footer{
+    padding-top: 2%;
     color: white;
     padding-bottom:5%;
     clear: both;
     background-color: black;
 }
-.footer h2{
-    padding-top: 2%;
-}
+
 @media all and (max-width: 768px){
+    .menu,
+     .menu2 img{
+         float: none;
+         width: 99%;
+     }
+     section{
+         padding-top: 0;
+     }
+     #first{
+         padding-top: 10%;
+     }
+     .header{
+         height: 8%;
+     }
     #menu2{
         visibility: hidden;
+        float: none;
     }
-    #logo{
-        width: 12%;
-    }
-    .coluna1, .coluna2, .coluna3, .coluna4, .coluna5, .coluna6, .e1{
+    
+    .coluna1, .coluna2, .coluna3, .coluna4, .coluna5, .coluna6, .e1, .obj{
         display: block;
         float: none;
         padding: 0;
-        width: 80%;
-        margin: 10px auto;
+        width: 95%;
+        margin: 2% auto;
     }
-    #logodiv{
-        width: 100%;
-        text-align: center;
-        position: relative;
-    }
-    #logo{
-        margin-left: 0%;
-        transform: translateX(-50%);
-    }
+    .texting2{
+        padding:0 ;
+        margin: 2% auto;
+        width: 95%;
 
+    }
+    #video{
+        margin-top: 1%;
+    }
+    .imgods{
+        margin: 0;
+    }
+    
+    
+    
+     
 }
-
-
